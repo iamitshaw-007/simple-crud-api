@@ -4,12 +4,17 @@
     "description": "Simple CRUD API",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js"
+        "test": "node index.test.js",
+        "start": "node index.js",
+        "prepare": "husky"
     },
     "keywords": [
         "NodeJs",
         "ExpressJs"
     ],
     "author": "Amit Shaw",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "husky": "^9.1.7"
+    }
 }
