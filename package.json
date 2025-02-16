@@ -2,12 +2,12 @@
     "name": "simple-crud-api",
     "version": "1.0.0",
     "description": "Simple CRUD API",
-    "main": "index.js",
+    "main": "server.js",
     "scripts": {
         "build": "npx tsc",
-        "start": "node dist/index.js",
+        "start": "node dist/server.js",
         "prepare": "husky",
-        "dev": "nodemon src/index.ts"
+        "dev": "nodemon src/server.ts"
     },
     "keywords": [
         "NodeJs",
